@@ -9,6 +9,7 @@ The five models are:
 3. Bagged Trees
 4. Random Forest
 5. Boosted Trees
+
 Since the goal is to compare 5 models, and see which gives the best performance, evaluation is performed using the same holdout set.
 Also, the dataset is highly unbalanced due to which accuracy is not a good metric to use here. Therefore, F1-score is used for hyperparameter selection for all models. ROC curve and AUC score is also used because it is a good method to use when comparing multiple classification algorithms. 
 The original dataset contains roughly 280K observations. The data I have used is simplified down to roughly 3000 observations.
