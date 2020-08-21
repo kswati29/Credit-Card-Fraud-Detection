@@ -16,20 +16,20 @@ The original dataset contains roughly 280K observations. The data I have used is
 
 ## Result
 Model selection based on f1 score and AUC score give different results because their criteria for a good model are different.
-Following is the F1 score of the classification models: 
-Logistic Regression 	0.8988
-Decision Tree       	0.8614
-Bagging             	0.8856
-Random Forest       	0.8913
-Boosting            	0.8905
+Following is the F1 score of the classification models:
+1. Logistic Regression 	0.8988
+2. Decision Tree       	0.8614
+3. Bagging             	0.8856
+4. Random Forest       	0.8913
+5. Boosting            	0.8905
 
 Logistic regression model has the best performance, followed by Random Forest then Boosting and Bagging. Also, the time taken by Bagged tree and Boosting is the most but Logistic Regression is quite low comparatively yet providing a better f1 score. As expected, a single Decision Tree doesn't perform too well and gives lowest f1 score out of the five.
 Following is the AUC score of the classification models:
-Logistic Reg: 	 0.9668
-Decision Tree:	 0.8878
-Bagging:       	0.9656
-Random Forest: 	0.9640479360852197
-Boosting:      	0.9753707075373423
+1. Logistic Reg: 	 0.9668
+2. Decision Tree:	 0.8878
+3. Bagging:       	0.9656
+4. Random Forest: 	0.9640479360852197
+5. Boosting:      	0.9753707075373423
 
 Model with largest Area Under Curve(AUC) is the best classification model.Boosting gives the best score out of all for the classification model. Although the scoring is very close, the order of best classification as per AUC score is Boosting followed by Logistic Regression then Bagging and then Random Forest. Decision Tree still has the lowest AUC (As seen in the graph as well).
 
