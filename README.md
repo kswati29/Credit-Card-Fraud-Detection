@@ -39,7 +39,6 @@ F1 does not take the true negatives into account and is a measure of precision a
 F1-score： 2/(1/P+1/R) where  
 Precision: TP/(TP+FP)  
 Recall: TP/(TP+FN)
-
 ROC/AUC： TPR=TP/(TP+FN), FPR=FP/(FP+TN)
 
 For data like this as fraud detection, the positive examples(frauds) have relatively low rates of occurrence.
