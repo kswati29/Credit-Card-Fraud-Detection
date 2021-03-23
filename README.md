@@ -1,5 +1,5 @@
 # Credit-Card-Fraud-Detection
-Identify fraudulent credit card transactions- European cardholders 2013(September) Transaction Data
+Identify fraudulent credit card transactions using Tree-based methods
 
 ## Introduction
 This notebook evaluates input variables which are the result of a PCA transformation of transactions (privacy concerns) that occurred in two days. The focus is to use various predictive models to assess how accurate they are in detecting whether a transaction is a normal payment or a fraud. 
